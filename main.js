@@ -13,7 +13,7 @@ const countIt = (str) => {
   console.log('BOOMS', str.length)
 }
 
-
+//hi
 const getPrompt = () =>  {
   rl.question('Enter your string to count the characters: ', (str) => {
     countIt(str);
