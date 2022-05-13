@@ -7,7 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-
+// this is a test comment from nathan
 
 const countIt = (str) => {
   console.log('BOOMS', str.length)
