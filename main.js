@@ -14,6 +14,8 @@ const countIt = (str) => {
 }
 
 //hi
+//Create a array containing a set of arrays with two elements, one with a "character" and the other with occurrence of that character in the query
+
 const getPrompt = () =>  {
   rl.question('Enter your string to count the characters: ', (str) => {
     countIt(str);
