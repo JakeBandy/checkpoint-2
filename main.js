@@ -10,7 +10,14 @@ const rl = readline.createInterface({
 // this is a test comment from nathan
 
 const countIt = (str) => {
-  console.log(str.toLowerCase().replace(/[^a-z]/g,""))//using a boolean operation in order to remove all none a-z characters
+  let st =str.toLowerCase().replace(/[^a-z]/g,"")
+  //console.log(str.toLowerCase().replace(/[^a-z]/g,""))//using a boolean operation in order to remove all none a-z characters
+  for(let i=0;i<st.length;i++){
+    let op=st[i]//
+    chars[op].count++;
+    // console.log(chars[op])
+  }
+  console.log(chars)
 }
 
 //hi
