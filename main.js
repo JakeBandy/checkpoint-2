@@ -20,15 +20,17 @@ const countIt = (str) => {
   let alphabet =["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   for(let i=0;i<alphabet.length;i++){//this takes the java object and only outputs characters that are present
     if(chars[alphabet[i]].count!=0){
-        console.log(chars[alphabet[i]].char+": "+chars[alphabet[i]].count)
+        console.log(chars[alphabet[i]].char+": "+chars[alphabet[i]].count)//some string concatenation 
+        chars[alphabet[i]].count=0;//clears the value after print
+
     }
     else{}
   }
   //underneath this it will be a method to clear the object for each questions
 
-  for(let i=0;i<alphabet.length;i++){
-    chars[alphabet[i]].count=0;
-  }
+  // for(let i=0;i<alphabet.length;i++){//dont know if is till need this loop or it can moved up to the upper loop
+    // chars[alphabet[i]].count=0;//did not need function is preformed in the upper loop after printing
+  // }
 
 
   }
