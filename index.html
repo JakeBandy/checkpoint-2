@@ -2,14 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Letter Counter</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <hr/>
-    <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
-    <hr/>
+    <main>
+      <h1>Letter Counter</h1>
+        <label for="counter">Enter text and click submit to count the letters.</label>
+        <input id="counterBox" type = "text">
+        <button id="counterButton" onclick="counterGUI()">Submit</button>
+        <div id= "result">
+        </div>
+    </main>
   </body>
 </html>
