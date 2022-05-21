@@ -117,9 +117,6 @@ let chars={
     "char":"z","count":0
   }
 }
-function myFunk ("") {
-  alert("sup")
-}
 
 const getPrompt = () =>  {
   rl.question('Enter your string to count the characters: ', (str) => {
