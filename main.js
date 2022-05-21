@@ -13,9 +13,8 @@ const countIt = (str) => {
   let st =str.toLowerCase().replace(/[^a-z]/g,"")
   //console.log(str.toLowerCase().replace(/[^a-z]/g,""))//using a boolean operation in order to remove all none a-z characters
   for(let i=0;i<st.length;i++){
-    let op=st[i]//for visibility of code
+    let op=st[i]
     chars[op].count++;
-    // console.log(chars[op])
   }
   let alphabet =["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   for(let i=0;i<alphabet.length;i++){//this takes the java object and only outputs characters that are present
@@ -117,6 +116,9 @@ let chars={
   "z":{
     "char":"z","count":0
   }
+}
+function myFunk ("") {
+  alert("sup")
 }
 
 const getPrompt = () =>  {
